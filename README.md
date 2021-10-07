@@ -1,2 +1,2 @@
-# Accessibility Hack - Analysing brain waves of relaxed person.
+# Neuro Hack - Analysing brain waves of relaxed barin.
 This 
