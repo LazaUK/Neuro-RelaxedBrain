@@ -10,7 +10,7 @@ For this tutorial, you would need the following hardware and software components
 
 ## Step 0 - Client Setup
 1. Download content of this repo;
-2. Install python library, missing on your computer. E.g, to deploy muselsl for EEG streaming, use:
+2. Install python libraries, missing on your computer. E.g, to deploy muselsl for EEG streaming, use:
 ```
 pip install muselsl
 ```
