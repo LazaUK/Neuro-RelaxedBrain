@@ -34,7 +34,7 @@ pip install muselsl
 
 ## Step 3 - Visualise real-time EEG readings in Dash
 
-Finally, you can open the local instance of Dash Web service at http://127.0.0.1:8050/ to see real-time brain wave visualisations on the Scannter and Polar Bar charts.
+Finally, you can open the local instance of Dash Web service at http://127.0.0.1:8050/ to see real-time brain wave visualisations on the line and radar charts.
 
 ![Step3a](/images/Step3a.png)
 
