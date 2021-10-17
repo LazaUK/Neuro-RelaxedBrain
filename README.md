@@ -1,4 +1,4 @@
-# Neuro Hack - Analysing brain waves of relaxed brain.
+# Neuro Hack - Analysing brain waves of relaxed brain
 
 This is my attempt to read and visualise brain wave telemetry, retrieved from the Muse meditation device.
 > **Note:** This solution has been built and tested in Python 3.8.
@@ -6,7 +6,7 @@ This is my attempt to read and visualise brain wave telemetry, retrieved from th
 ## Pre-requisites
 For this tutorial, you would need the following hardware and software components:
 - Muse meditation device. See the [Muse Web site](https://choosemuse.com/) for available models that support *EEG streaming*;
-- Computer with pre-installed Python 3.x;
+- Computer with pre-installed Python 3.x.
 
 ## Step 0 - Client Setup
 1. Download content of this repo;
@@ -23,18 +23,13 @@ pip install muselsl
 ![Step1a](/images/Step1a.png)
 
 
-## Step 2 - Azure SQL configuration
+## Step 2 - Process brain wave details
 
-1. Deploy Azure SQL database in your Azure subscription;
-2. Create a table in the newly-deployed Azure SQL database, using the following SQL script, so that you can store there your Smart Plug's daily and monthly stats:
-```
-CREATE TABLE [dbo].[energydata](
-    [id] [int] IDENTITY(1, 1) NOT NULL,
-    [teledate] [varchar](10) NULL,
-    [monthly_stats] [nvarchar](max) NULL,
-    [yearly_stats] [nvarchar](max) NULL
-)
-```
+1. Execute Python script Laziz_step2.py. This second script will spin up Dash Web service, process EEG telemetry and send the data to Dash charts;
+2. You should see the following output in your command line, with the values for Alpha, Beta and Theta waves:
+
+![Step1a](/images/Step2a.png)
+
 
 ## Step 3 - Visualise content in PowerBI dashboard
 
