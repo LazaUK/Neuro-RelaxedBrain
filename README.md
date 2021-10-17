@@ -28,7 +28,7 @@ pip install muselsl
 1. Execute Python script Laziz_step2.py. This second script will spin up Dash Web service, process EEG telemetry and send the data to Dash charts;
 2. You should see the following output in your command line, with the values for Alpha, Beta and Theta waves:
 
-![Step1a](/images/Step2a.png)
+![Step2a](/images/Step2a.png)
 
 
 ## Step 3 - Visualise content in PowerBI dashboard
