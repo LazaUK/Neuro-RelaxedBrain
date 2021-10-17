@@ -17,15 +17,9 @@ pip install muselsl
 
 ## Step 1 - Stream EEG telemetry
 
-1. Execute Python script Laziz_step1.py. It uses [muselsl](https://pypi.org/project/muselsl/1.0.4/) Python module, built by Alexandre Barachant, to stream EEG data out of the Muse meditation device;
-
-
-3. In Azure IoT Hub, add new IoT device corresponding to your SmartPlug using "Add Device" under Explorers -> IoT devices:
+1. Execute Python script Laziz_step1.py. It uses [muselsl](https://pypi.org/project/muselsl/1.0.4/) Python module, published on PyPI by Alexandre Barachant, to stream EEG data out of the Muse meditation device;
+2. You should see the following output in your command line, confirming successful connectivity to the Muse device and activation of EEG stream:
 ![Step1a](/images/Step1a.png)
-3. Open newly created IoT device record and copy one of its connection strings (either primary or secondary:
-![Step1b](/images/Step1b.png)
-4. Open downloaded DemoKasa.py file and update the value of the CONNECTION_STRING variable with the copied connection string from the previous action above:
-![Step1c](/images/Step1c.png)
 
 
 ## Step 2 - Azure SQL configuration
