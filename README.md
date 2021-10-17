@@ -34,6 +34,7 @@ pip install muselsl
 
 ## Step 3 - Visualise real-time EEG readings in Dash
 
-Finally, you can visualise your Energy Metering data in PowerBI. Below is an example of a PowerBI dashboard with the real-time telemetry and historical stats.
-![Step4](/images/Step4.png)
+Finally, you can open the local instance of Dash Web service at http://127.0.0.1:8050/ to see real-time brain wave visualisations on the Scannter and Polar Bar charts.
+
+![Step3a](/images/Step3a.png)
 
