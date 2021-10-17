@@ -1,13 +1,12 @@
-# Neuro Hack - Analysing brain waves of relaxed barin.
+# Neuro Hack - Analysing brain waves of relaxed brain.
 
-This is my contribution to the open source project, based on the original idea from my Microsoft colleagues Anurag Peshne and Chris Templeman to measure *energy consumption from home for the work-related activities*.
+This is my attempt to read and visualise brain wave telemetry, retrieved from Muse meditation device.
 > **Note:** This solution has been built and tested in Python 3.8.
 
 ## Pre-requisites
 For this tutorial, you would need the following hardware and software components:
-- Kasa Smart Wi-Fi Strip or Plug. See the [TP-Link Web site](https://www.tp-link.com/uk/home-networking/smart-plug/hs100) for available models that support *Energy Monitoring*. For testing purposes, I'm using Kasa Mini Smart Plug (**KP115**);
-- Computer with the Internet connectivity and pre-installed Python 3.x;
-- Azure subscription to provision backend cloud resources.
+- Muse meditation device. See the [Muse Web site](https://choosemuse.com/) for available models that support *EEG streaming*;
+- Computer with pre-installed Python 3.x;
 
 ## Step 0 - Client Setup
 1. Download content of this repo;
