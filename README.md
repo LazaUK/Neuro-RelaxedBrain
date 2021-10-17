@@ -2,6 +2,7 @@
 
 This is my attempt to read and visualise brain wave telemetry, retrieved from the Muse meditation device.
 > **Note:** This solution has been built and tested in Python 3.8.
+
 > **Kudos:** Thanks to the earlier experiments by Alexandre Barachant & Steve Korson. Learnt from their code to enhance and adapt to my hack requirements!
 
 ## Pre-requisites
