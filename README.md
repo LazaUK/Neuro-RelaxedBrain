@@ -1,6 +1,6 @@
 # Neuro Hack - Analysing brain waves of relaxed brain.
 
-This is my attempt to read and visualise brain wave telemetry, retrieved from Muse meditation device.
+This is my attempt to read and visualise brain wave telemetry, retrieved from the Muse meditation device.
 > **Note:** This solution has been built and tested in Python 3.8.
 
 ## Pre-requisites
