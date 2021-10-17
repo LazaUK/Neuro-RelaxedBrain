@@ -31,7 +31,7 @@ pip install muselsl
 ![Step2a](/images/Step2a.png)
 
 
-## Step 3 - Visualise content in PowerBI dashboard
+## Step 3 - Visualise real-time EEG readings in Dash
 
 Finally, you can visualise your Energy Metering data in PowerBI. Below is an example of a PowerBI dashboard with the real-time telemetry and historical stats.
 ![Step4](/images/Step4.png)
