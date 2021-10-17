@@ -19,6 +19,7 @@ pip install muselsl
 
 1. Execute Python script Laziz_step1.py. It uses [muselsl](https://pypi.org/project/muselsl/1.0.4/) Python module, published on PyPI by Alexandre Barachant, to stream EEG data out of the Muse meditation device;
 2. You should see the following output in your command line, confirming successful connectivity to the Muse device and activation of EEG stream:
+
 ![Step1a](/images/Step1a.png)
 
 
