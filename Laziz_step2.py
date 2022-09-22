@@ -1,4 +1,4 @@
-# Last update on 18/10/2021
+# Last update on 18/09/2022
 # Last update by Laziz
 
 import dash
@@ -21,7 +21,7 @@ app = dash.Dash(__name__, server=server,external_stylesheets=external_stylesheet
 app.config.suppress_callback_exceptions = True
 
 app.layout = html.Div(children=[
-    html.H1(children='Laziz T. - My DEMO of Brain-Computer Interface'),
+    html.H1(children='Laziz T. - My DEMO of a Brain-Computer Interface'),
     html.Div(children='''
         I'll visualise here EEG telemetry
     '''),
